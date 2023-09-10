@@ -7,7 +7,7 @@ import InternalProvider from "./components/ContextProvider";
 import { SpinnerCircular } from 'spinners-react';
 
 // REPLACE WITH YOUR PUBLIC KEY AVAILABLE IN: https://developers.mercadopago.com/panel
-initMercadoPago("APP_USR-4118abbb-7999-4da2-a450-8ca4714dd47c");
+initMercadoPago("secret_key");
 
 const App = () => {
   const [preferenceId, setPreferenceId] = useState(null);
